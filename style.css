@@ -76,6 +76,12 @@ body{
     z-index: -1;
 }
 
+.hero__btn:hover {
+    background-color: #FCF6EE;
+    color: #d14935;
+    border: #d14935 1px solid;
+}
+
 .hero__img {
     display: inline-block;
     vertical-align: top;
@@ -131,27 +137,29 @@ body{
     margin-left: 20px;
 }
 
+.about__des {
+    display: flex;
+    flex-direction: row;
+}
+
 .about__shortdes {
-    display: inline-block;
-    vertical-align: top;
     width: 350px;
-    padding: 20px;
+    padding: 10px;
     color: #d14935;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 50px;
     box-sizing: border-box;
 }
 
 .about__longdes {
-    display: inline-block;
-    vertical-align: top;
-    width: 60%;
-    padding: 20px 0px 20px 20px;
+    width: 80%;
+    padding: 20px 0px 20px 30px;
     box-sizing: border-box;
     font-size: 25px;
     font-weight: lighter;
     color: #6D5C55;
-    justify-content: baseline;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .interest__list{
@@ -241,7 +249,8 @@ tr{
     margin-bottom: 20px;
     height: 100px;
     width: 100%;
-     border: none;
+    border: none;
+    padding: 10px 0px 0px 10px;
     border:  #6D5C55 0.8px solid;
     background-color: #FCF6EE;
     cursor: text;
@@ -252,10 +261,11 @@ tr{
     color: #FCF6EE;
     padding: 10px 20px 10px 20px;
     border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
-    .interest__list, .project__list {
+    .interest__list, .project__list, .about__des {
         flex-direction: column;
         gap: 20px;
         margin-right: 0;
