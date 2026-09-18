@@ -26,6 +26,10 @@ portfolio/
 ├── style.css
 └── README.md
 ```
+## 📸 Preview
+
+![Portfolio Preview](<img width="1233" height="663" alt="Screenshot 2026-09-18 at 5 28 43 PM" src="https://github.com/user-attachments/assets/1611f3d3-c898-4513-af1e-7438689862b4" />
+)
 
 ## 🚀 How to Run
 1. Clone this repository:
