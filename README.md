@@ -32,7 +32,9 @@ portfolio/
 ```
 ## 📸 Preview
 
-![Portfolio Preview](Portfolio Thumnail.png)
+## 📸 Preview
+
+![Portfolio Preview](Portfolio_Thumnail.png)
 
 ## 🚀 How to Run
 1. Clone this repository:
